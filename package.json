@@ -1,0 +1,23 @@
+{
+  "name": "rezona-server",
+  "version": "1.0.0",
+  "description": "Servidor autoritativo 2v2 para Rezona Futbol (Colyseus)",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@colyseus/core": "^0.16.0",
+    "@colyseus/monitor": "^0.16.0",
+    "@colyseus/schema": "^3.0.0",
+    "@colyseus/ws-transport": "^0.16.0",
+    "colyseus.js": "^0.16.22",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
